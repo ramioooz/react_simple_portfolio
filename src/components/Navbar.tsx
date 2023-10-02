@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { linkType } from "../types/types";
+import { navLinks } from "../constants";
 
 const Navbar = () => {
 
@@ -43,25 +44,6 @@ const Navbar = () => {
     // useEffect cleaner
     return () => document.removeEventListener("click", handleDocClicks);
   }, [menuOpen]);
-
-  let navLinks: linkType[] = [
-    {
-      title: "About",
-      url: "./#about",
-    },
-    {
-      title: "Experience",
-      url: "./#experience",
-    },
-    {
-      title: "Projects",
-      url: "./#projects",
-    },
-    {
-      title: "Contact",
-      url: "./#contact",
-    },
-  ];
 
   return (
     <>
