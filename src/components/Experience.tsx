@@ -4,7 +4,7 @@ import { arrow } from "../assets";
 
 const Experience = () => {
   return (
-    <section>
+    <section id="experience">
       <div className="experience-container">
         <div className="small-text">Explore my</div>
         <div className="large-text">Experience</div>
