@@ -153,6 +153,7 @@ const projects: projectType[] = [
 ];
 
 const contactDetails : contactDetailsType = {
+  fullName: 'Rami Mohamed',
   email: 'rami.workstation@gmail.com',
   linkedIn: "https://www.linkedin.com/in/ramioooz"
 }

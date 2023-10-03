@@ -15,14 +15,21 @@ const Contact = () => {
           gap: "2rem",
           justifyContent: "center",
           marginTop: "2rem",
+          flexWrap: "wrap",
         }}
       >
-        <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
-          <img src={email} alt="email icon" className="small-icon" />
-          <p>{contactDetails.email}</p>
-        </div>
+        <a href={`mailto:${contactDetails.email}`}>
+          <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+            <img src={email} alt="email icon" className="small-icon" />
+            <p>{contactDetails.email}</p>
+          </div>
+        </a>
         {contactDetails.linkedIn && (
-          <a href={contactDetails.linkedIn} target="_blank" rel="noopener noreferrer">
+          <a
+            href={contactDetails.linkedIn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div
               style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}
             >

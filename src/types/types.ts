@@ -15,6 +15,7 @@ export type projectType = {
     demoLink?: string,
 }
 export type contactDetailsType = {
+    fullName: string,
     email: string,
     linkedIn?: string
 }

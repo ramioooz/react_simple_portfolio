@@ -3,7 +3,7 @@ import { about_pic, arrow, education, experience } from "../../assets";
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <div className="about-container">
         <div className="small-text">Get to know more</div>
         <div className="large-text">About Me</div>

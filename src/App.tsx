@@ -4,6 +4,7 @@ import Experience from "./components/sections/Experience";
 import Navbar from "./components/Navbar";
 import Profile from "./components/sections/Profile";
 import Projects from "./components/sections/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <Footer/>
     </>
   );
 }
