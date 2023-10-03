@@ -14,3 +14,7 @@ export type projectType = {
     githubLink?: string,
     demoLink?: string,
 }
+export type contactDetailsType = {
+    email: string,
+    linkedIn?: string
+}

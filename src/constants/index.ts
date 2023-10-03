@@ -1,4 +1,4 @@
-import { linkType, projectType, skillType } from "../types/types";
+import { contactDetailsType, linkType, projectType, skillType } from "../types/types";
 
 import {
   checkmark,
@@ -151,6 +151,12 @@ const projects: projectType[] = [
     demoLink: "https://rami.sd",
   },
 ];
+
+const contactDetails : contactDetailsType = {
+  email: 'rami.workstation@gmail.com',
+  linkedIn: "https://www.linkedin.com/in/ramioooz"
+}
+
 
 // const services = [
 //   {
@@ -354,4 +360,5 @@ export {
   frontendSkills,
   backendSkills,
   projects,
+  contactDetails,
 };

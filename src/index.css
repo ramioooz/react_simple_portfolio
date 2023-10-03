@@ -240,7 +240,8 @@ a.text-button {
   flex-direction: column;
   align-items: center;
 
-  width: 100%;
+  /* width: 100%; */
+  flex: 1;
 }
 
 .about-photo-and-details-container {
@@ -392,6 +393,16 @@ section {
 .project-btns {
   display: flex;
   gap: 1rem;
+}
+
+/* CONTACT SECTION */
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 0.1rem solid black; */
+  margin: 3rem 10rem;
+  /* margin: auto 10rem; */
 }
 
 
