@@ -1,6 +1,6 @@
-import { linkType } from "../types/types";
+import { linkType, skillType } from "../types/types";
 
-import { github, linkedin } from "../assets";
+import { checkmark, github, linkedin } from "../assets";
 
 const navLinks: linkType[] = [
   {
@@ -36,6 +36,91 @@ const profileLinks: linkType[] = [
     title: "LinkedIn-Profile",
     url: "https://www.linkedin.com/in/ramioooz",
     img: linkedin,
+  },
+];
+
+const frontendSkills : skillType[] = [
+  {
+    name: "HTML",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "CSS",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "JavaScript",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "TypeScript",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "React",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "Flutter",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "Dart",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "TailwindCSS",
+    level: "Experienced",
+    icon: checkmark,
+  },
+];
+const backendSkills : skillType[] = [
+  {
+    name: "MySQL",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "NodeJs",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "MongoDB",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "PHP",
+    level: "Intermediate",
+    icon: checkmark,
+  },
+  {
+    name: "ExpressJS",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "WebSockets",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "RESTFUL API",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "GraphQL",
+    level: "Intermediate",
+    icon: checkmark,
   },
 ];
 
@@ -234,4 +319,4 @@ const profileLinks: linkType[] = [
 //   },
 // ];
 
-export { navLinks, profileLinks, cvlink };
+export { navLinks, profileLinks, cvlink, frontendSkills,backendSkills };

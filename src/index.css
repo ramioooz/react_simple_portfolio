@@ -128,7 +128,6 @@ a:hover {
 /* PROFILE */
 .profile-div {
   height: 83vh;
-  /* height: fit-content; */
   display: flex;
   gap: 5rem;
   justify-content: center;
@@ -158,7 +157,7 @@ a:hover {
 
 .medium-text {
   font-size: 1.75rem;
-  color: rgb(90, 90, 90);
+  color: rgb(75, 75, 75);
 }
 
 .large-text {
@@ -270,7 +269,6 @@ section {
   /* padding-top: 4vh; */
   /* height: 96vh; */
   /* box-sizing: border-box; */
-  /* min-height: fit-content; */
   position: relative;
   /* background-color: darkkhaki; */
   border: 1px solid black;
@@ -283,13 +281,63 @@ section {
   height: 2rem;
 }
 
-.arrow-icon{
+.arrow-icon {
   width: 2rem;
   height: 2rem;
   position: absolute;
   right: 5rem;
   bottom: 5rem;
   cursor: pointer;
+}
+
+/* EXPERIENCE SECTION */
+.experience-container {
+  /* border: 0.1rem solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+  margin: auto 10rem;
+}
+
+.exp-group-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skills-wrap {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.exp-group {
+  /* border: 1px solid black; */
+  min-width: 11rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.exp-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.exp-level {
+  /* font-weight: bold; */
+  /* font-size: 1.25rem; */
+  color: rgb(65, 65, 65);
+}
+
+.exp-header{
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: rgb(75, 75, 75);
 }
 
 
@@ -306,7 +354,6 @@ This should be at the end of the file (after applying all elements css) */
 
   .profile-div {
     flex-direction: column;
-    /* height: fit-content; */
     gap: 2rem;
   }
 
@@ -315,20 +362,35 @@ This should be at the end of the file (after applying all elements css) */
     height: 18rem;
   }
 
-  .profile-context-container {
-    margin-bottom: 4rem;
+  .profile-div {
+    height: fit-content;
   }
 
+  .profile-context-container {
+    margin-bottom: 3rem;
+  }
+
+
+
   .about-container {
-    margin: 0 5%;
+    margin: 3rem 5%;
   }
 
   .about-photo-and-details-container {
     flex-direction: column;
   }
 
-  .arrow-icon{
+  .arrow-icon {
     display: none;
+  }
+
+  .experience-container {
+    /* margin: 0 5%; */
+    margin: 3rem 5%;
+  }
+
+  section {
+    height: fit-content;
   }
 }
 
