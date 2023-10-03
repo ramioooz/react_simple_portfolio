@@ -1,5 +1,5 @@
 import React from "react";
-import { about_pic, arrow, education, experience } from "../assets";
+import { about_pic, arrow, education, experience } from "../../assets";
 
 const About = () => {
   return (
