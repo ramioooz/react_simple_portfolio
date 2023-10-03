@@ -8,3 +8,9 @@ export type skillType = {
     level: "Experienced" | "Intermediate" | "Basic",
     icon?: string,
 }
+export type projectType = {
+    name: string,
+    img: string,
+    githubLink?: string,
+    demoLink?: string,
+}

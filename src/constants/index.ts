@@ -1,6 +1,13 @@
-import { linkType, skillType } from "../types/types";
+import { linkType, projectType, skillType } from "../types/types";
 
-import { checkmark, github, linkedin } from "../assets";
+import {
+  checkmark,
+  github,
+  linkedin,
+  project_1,
+  project_2,
+  project_3,
+} from "../assets";
 
 const navLinks: linkType[] = [
   {
@@ -39,7 +46,7 @@ const profileLinks: linkType[] = [
   },
 ];
 
-const frontendSkills : skillType[] = [
+const frontendSkills: skillType[] = [
   {
     name: "HTML",
     level: "Experienced",
@@ -81,7 +88,7 @@ const frontendSkills : skillType[] = [
     icon: checkmark,
   },
 ];
-const backendSkills : skillType[] = [
+const backendSkills: skillType[] = [
   {
     name: "MySQL",
     level: "Experienced",
@@ -121,6 +128,27 @@ const backendSkills : skillType[] = [
     name: "GraphQL",
     level: "Intermediate",
     icon: checkmark,
+  },
+];
+
+const projects: projectType[] = [
+  {
+    name: "Project 1",
+    img: project_1,
+    githubLink: "https://github.com",
+    demoLink: "https://rami.sd",
+  },
+  {
+    name: "Project 2",
+    img: project_2,
+    githubLink: "https://github.com",
+    demoLink: "https://rami.sd",
+  },
+  {
+    name: "Project 3",
+    img: project_3,
+    githubLink: "https://github.com",
+    demoLink: "https://rami.sd",
   },
 ];
 
@@ -319,4 +347,11 @@ const backendSkills : skillType[] = [
 //   },
 // ];
 
-export { navLinks, profileLinks, cvlink, frontendSkills,backendSkills };
+export {
+  navLinks,
+  profileLinks,
+  cvlink,
+  frontendSkills,
+  backendSkills,
+  projects,
+};
