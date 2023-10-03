@@ -350,7 +350,7 @@ section {
 
 /* PROJECTS SECTION */
 .projects-container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -416,9 +416,6 @@ This should be at the end of the file (after applying all elements css) */
     height: 18rem;
   }
 
-  .profile-div {
-    /* height: fit-content; */
-  }
 
   .profile-context-container {
     margin-bottom: 3rem;
@@ -448,12 +445,6 @@ This should be at the end of the file (after applying all elements css) */
   .projects-container {
     margin: 3rem 5%;
   }
-}
-
-@media screen and (max-width: 1000px) {
-  /* .exp-group-container {
-    flex-wrap: wrap;
-  } */
 }
 
 @media screen and (max-width: 600px) {
