@@ -1,5 +1,6 @@
 import React from "react";
 import { about_pic, arrow, education, experience } from "../../assets";
+import { contactDetails } from "../../constants";
 
 const About = () => {
   return (
@@ -42,11 +43,7 @@ const About = () => {
               </div>
             </div>
             <p className="about-paragraph">
-              This is a very long text paragraph. This is a very long text
-              paragraph. This is a very long text paragraph. This is a very long
-              text paragraph. This is a very long text paragraph. This is a very
-              long text paragraph. This is a very long text paragraph. This is a
-              very long text paragraph. This is a very long text paragraph.
+              {contactDetails.aboutMe}
             </p>
           </div>
         </div>

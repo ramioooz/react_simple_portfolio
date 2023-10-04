@@ -1,7 +1,7 @@
 import React from "react";
 
 import { profile_pic } from "../../assets";
-import { cvlink, profileLinks } from "../../constants";
+import { contactDetails, cvlink, profileLinks } from "../../constants";
 
 const Profile = () => {
   return (
@@ -10,7 +10,7 @@ const Profile = () => {
       <div className="profile-context-container">
         <div className="small-text">Hello. I am</div>
         <div className="large-text">Rami Mohamed</div>
-        <div className="medium-text">Full Stack Developer</div>
+        <div className="medium-text">{contactDetails.jobTitle}</div>
         <div className="profile-txt-btns-container">
           <a
             href={cvlink.url}

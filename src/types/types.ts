@@ -17,5 +17,7 @@ export type projectType = {
 export type contactDetailsType = {
     fullName: string,
     email: string,
-    linkedIn?: string
+    linkedIn?: string,
+    jobTitle: string,
+    aboutMe: string,
 }

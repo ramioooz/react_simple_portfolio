@@ -281,10 +281,8 @@ a.text-button {
 
 section {
   /* height: 100vh; */
-  /* box-sizing: border-box; */
+  /* border: 0.1rem solid black; */
   position: relative;
-  /* background-color: darkkhaki; */
-  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   /* height: fit-content; */
@@ -390,6 +388,7 @@ section {
 
 .project-img {
   /* width: 20rem; */
+  border: 0.1rem solid rgb(170, 170, 170);
   width: 95%;
   border-radius: 2rem;
 }
@@ -397,6 +396,7 @@ section {
 .project-name {
   font-size: 2rem;
   margin: 1rem;
+  text-align: center;
 }
 
 .project-btns {
