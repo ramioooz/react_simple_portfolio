@@ -1,7 +1,13 @@
 # Simple Portfolio Website
 
+
 This is a simple react typescript project to display your work portfolio.
 The website is full responsive and mobile friendly.
+
+The project was build suing vite tool. to run the project use:
+```
+npm run dev
+```
 
 ## Customization
 
