@@ -18,7 +18,7 @@ const Contact = () => {
           flexWrap: "wrap",
         }}
       >
-        <a href={`mailto:${contactDetails.email}`}>
+        <a href={`mailto:${contactDetails.email}?subject=WEBSITE-VISITOR`}>
           <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
             <img src={email} alt="email icon" className="small-icon" />
             <p>{contactDetails.email}</p>

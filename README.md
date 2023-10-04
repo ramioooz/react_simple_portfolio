@@ -28,4 +28,6 @@ project-3.png
 
 to match your projects.
 
+live demo here: https://react-portfolio.rami.sd
+
 Good luck ;)

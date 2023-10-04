@@ -22,6 +22,7 @@ const About = () => {
                   src={experience}
                   alt="experience img"
                   className="small-icon"
+                  style={{marginBottom: "0.25rem"}}
                 />
                 <h3>Experience</h3>
                 <p style={{ textAlign: "center", color: "gray" }}>
@@ -35,6 +36,7 @@ const About = () => {
                   src={education}
                   alt="education img"
                   className="small-icon"
+                  style={{marginBottom: "0.25rem"}}
                 />
                 <h3>Education</h3>
                 <p style={{ textAlign: "center", color: "gray" }}>

@@ -291,8 +291,8 @@ section {
 }
 
 .small-icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .arrow-icon {
@@ -335,8 +335,16 @@ section {
   min-width: 11rem;
   display: flex;
   gap: 1rem;
+  /* justify-content: start; */
   /* flex: 1; */
 }
+
+/* .skill-and-level{
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+} */
 
 .exp-title {
   font-weight: bold;
