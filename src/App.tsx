@@ -5,8 +5,15 @@ import Navbar from "./components/Navbar";
 import Profile from "./components/sections/Profile";
 import Projects from "./components/sections/Projects";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
+import { contactDetails } from "./constants";
 
 function App() {
+
+  useEffect(() => {
+    document.title = `${contactDetails.fullName} | ${contactDetails.jobTitle}`;
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -16,7 +23,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   );
 }
