@@ -12,7 +12,6 @@ npm run dev
 ## Customization
 
 - after cloning the respository go to 
-
 ```
 constants
    index.ts
@@ -21,7 +20,6 @@ constants
 and update the details to match your work details/experience.
 
 - also go to assets folder and update:
-
 ```
 project-1.png
 project-2.png
