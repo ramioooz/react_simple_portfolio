@@ -6,23 +6,26 @@ import email from "./email.png";
 import experience from "./experience.png";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
-import profile_pic from './profile-pic.png';
-import project_1 from "./project-1.png";
-import project_2 from "./project-2.png";
-import project_3 from "./project-3.png";
-
+import profile_pic from "./profile-pic.png";
+import proj_shopping_cart from "./proj_shopping_cart.png";
+import proj_smart_data_table_v1 from "./proj_smart_data_table_v1.png";
+import proj_users_login_v1 from "./proj_users_login_v1.png";
+import proj_kanban_dashboard_v1 from "./proj_kanban_dashboard_v1.png";
+import proj_profile_website_v1 from "./proj_profile_website_v1.png";
 
 export {
-    about_pic,
-    arrow,
-    checkmark,
-    education,
-    email,
-    experience,
-    github,
-    linkedin,
-    profile_pic,
-    project_1,
-    project_2,
-    project_3
-}
+  about_pic,
+  arrow,
+  checkmark,
+  education,
+  email,
+  experience,
+  github,
+  linkedin,
+  profile_pic,
+  proj_shopping_cart,
+  proj_smart_data_table_v1,
+  proj_users_login_v1,
+  proj_kanban_dashboard_v1,
+  proj_profile_website_v1,
+};
