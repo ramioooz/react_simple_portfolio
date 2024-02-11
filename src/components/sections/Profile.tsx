@@ -1,12 +1,21 @@
 import React from "react";
 
 import { profile_pic } from "../../assets";
-import { contactDetails, cvlink, profileLinks } from "../../constants";
+import {
+  contactDetails,
+  cvlink,
+  imgAltTxt_profileImage,
+  profileLinks,
+} from "../../constants";
 
 const Profile = () => {
   return (
     <div className="profile-div">
-      <img src={profile_pic} alt="profile image" className="image-container" />
+      <img
+        src={profile_pic}
+        alt={imgAltTxt_profileImage}
+        className="image-container"
+      />
       <div className="profile-context-container">
         <div className="small-text">Hello. I am</div>
         <div className="large-text">Rami Mohamed</div>
@@ -15,7 +24,7 @@ const Profile = () => {
           <a
             href={cvlink.url}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             className="text-button"
           >
             Read CV
@@ -26,13 +35,12 @@ const Profile = () => {
         </div>
         <div className="profile-links-btns-container">
           {profileLinks.map((link, i) => (
-            <a
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={i}
-            >
-              <img src={link.img} alt={link.url} className="profile-link-btn" />
+            <a href={link.url} target="_blank" rel="noopener" key={i}>
+              <img
+                src={link.img}
+                alt={link.altTxt}
+                className="profile-link-btn"
+              />
             </a>
           ))}
         </div>

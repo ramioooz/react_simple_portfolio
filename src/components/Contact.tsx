@@ -1,6 +1,10 @@
 import React from "react";
 import { email, linkedin } from "../assets";
-import { contactDetails } from "../constants";
+import {
+  contactDetails,
+  imgAltTxt_emailIcon,
+  imgAltTxt_linkedInIcon,
+} from "../constants";
 
 const Contact = () => {
   return (
@@ -20,20 +24,20 @@ const Contact = () => {
       >
         <a href={`mailto:${contactDetails.email}?subject=WEBSITE-VISITOR`}>
           <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
-            <img src={email} alt="email icon" className="small-icon" />
+            <img src={email} alt={imgAltTxt_emailIcon} className="small-icon" />
             <p>{contactDetails.email}</p>
           </div>
         </a>
         {contactDetails.linkedIn && (
-          <a
-            href={contactDetails.linkedIn}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={contactDetails.linkedIn} target="_blank" rel="noopener">
             <div
               style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}
             >
-              <img src={linkedin} alt="email icon" className="small-icon" />
+              <img
+                src={linkedin}
+                alt={imgAltTxt_linkedInIcon}
+                className="small-icon"
+              />
               <p>LinkedIn</p>
             </div>
           </a>

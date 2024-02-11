@@ -1,5 +1,5 @@
 import React from 'react'
-import { projects } from '../../constants'
+import { imgAltTxt_arrowIcon, projects } from '../../constants'
 import Project from '../Project'
 import { arrow } from '../../assets'
 
@@ -15,7 +15,7 @@ const Projects = () => {
         ))}
       </div>
       </div>
-      <a href="#contact"><img src={arrow} alt="arrow icon"  className='arrow-icon'/></a>
+      <a href="#contact"><img src={arrow} alt={imgAltTxt_arrowIcon}  className='arrow-icon'/></a>
     </section> 
   )
 }

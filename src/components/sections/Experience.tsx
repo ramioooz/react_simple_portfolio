@@ -1,5 +1,5 @@
 import React from "react";
-import { backendSkills, frontendSkills } from "../../constants";
+import { backendSkills, frontendSkills, imgAltTxt_arrowIcon } from "../../constants";
 import { arrow } from "../../assets";
 import Skill from "../Skill";
 
@@ -28,7 +28,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <a href="#projects"><img src={arrow} alt="arrow icon"  className='arrow-icon'/></a>
+      <a href="#projects"><img src={arrow} alt={imgAltTxt_arrowIcon}  className='arrow-icon'/></a>
     </section>
   );
 };

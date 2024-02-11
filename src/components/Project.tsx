@@ -1,17 +1,22 @@
 import React from "react";
 import { projectType } from "../types/types";
+import { imgAltTxt_projectImage } from "../constants";
 
 const Project = (props: projectType) => {
   return (
     <div className="project-container">
-      <img src={props.img} alt="project img" className="project-img" />
+      <img
+        src={props.img}
+        alt={imgAltTxt_projectImage}
+        className="project-img"
+      />
       <h1 className="project-name">{props.name}</h1>
       <div className="project-btns">
         {props.githubLink && (
           <a
             href={props.githubLink}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             className="text-button"
           >
             Github
@@ -21,7 +26,7 @@ const Project = (props: projectType) => {
           <a
             href={props.demoLink}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             className="text-button"
           >
             Live Demo

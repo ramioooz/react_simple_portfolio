@@ -222,7 +222,6 @@ a.text-button {
 
 /* ABOUT SECTION */
 
-
 .about-container {
   /* border: 1px solid black; */
   display: flex;
@@ -230,7 +229,6 @@ a.text-button {
   align-items: center;
   justify-content: center;
   margin: auto 10rem;
-
 }
 
 .about-blocks-container {

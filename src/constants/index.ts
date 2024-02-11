@@ -45,11 +45,15 @@ const profileLinks: linkType[] = [
     title: "Github-Profile",
     url: "https://github.com/ramioooz",
     img: github,
+    altTxt:
+      "Eng. Rami Mohamed, Full Stack Developer, Software Developer, Github icon",
   },
   {
     title: "LinkedIn-Profile",
     url: "https://www.linkedin.com/in/ramioooz",
     img: linkedin,
+    altTxt:
+      "Eng. Rami Mohamed, Full Stack Developer, Software Developer, Linkedin icon",
   },
 ];
 
@@ -75,7 +79,12 @@ const frontendSkills: skillType[] = [
     icon: checkmark,
   },
   {
-    name: "React",
+    name: "React JS",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "NEXT JS",
     level: "Experienced",
     icon: checkmark,
   },
@@ -108,6 +117,11 @@ const backendSkills: skillType[] = [
   },
   {
     name: "MongoDB",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
+    name: "Prisma",
     level: "Experienced",
     icon: checkmark,
   },
@@ -152,7 +166,7 @@ const projects: projectType[] = [
     demoLink: "https://astudio-data-table.rami.sd/",
   },
   {
-    name: "User Login",
+    name: "Users Login",
     img: proj_users_login_v1,
     // githubLink: "", // <-- no public github repo for now
     demoLink: "https://react-users-login.portfolio.rami.sd",
@@ -176,9 +190,29 @@ const contactDetails: contactDetailsType = {
   email: "rami.workstation@gmail.com",
   linkedIn: "https://www.linkedin.com/in/ramioooz",
   jobTitle: "Full Stack Developer",
-  aboutMe:
-    "I have been working in both frontend and backend web development for more than 10 years. I build smart software solutions for web and mobile. I use the latest development technologies like Flutter, MongoDB, JavaScript and Node JS, React JS. I also develop mobile games for Android.",
+  aboutMe: 
+  `I have been working in both frontend and backend web development for more than 10 years. 
+  I build smart software solutions for web and mobile. 
+  I use the latest development technologies like Flutter, MongoDB, JavaScript, Node JS, React JS, and NEXT JS. 
+  I also develop mobile games for Android. 
+  I use project management tools like GitHub, Jira, and Trello. 
+  I adopt software development agile methodologies like Scrum and Kanban.`,
 };
+
+const general_altTxt =
+  "Eng. Rami Mohamed, Full Stack Developer, Software Developer ";
+const imgAltTxt_profileImage: string = general_altTxt + "Profile Image";
+const imgAltTxt_emailIcon: string = general_altTxt + "Contact Me, Email Icon";
+const imgAltTxt_linkedInIcon: string =
+  general_altTxt + "Contact Me, LinkedIn Icon";
+const imgAltTxt_projectImage: string = general_altTxt + "Project Image";
+const imgAltTxt_skillIcon: string =
+  general_altTxt + "Software Developer, Skill Icon";
+const imgAltTxt_experienceIcon: string =
+  general_altTxt + "About Me, Experience Icon";
+const imgAltTxt_educationIcon: string =
+  general_altTxt + "About Me, Education Icon";
+const imgAltTxt_arrowIcon: string = general_altTxt + "About Me, Arrow Icon";
 
 export {
   navLinks,
@@ -188,4 +222,12 @@ export {
   backendSkills,
   projects,
   contactDetails,
+  imgAltTxt_profileImage,
+  imgAltTxt_emailIcon,
+  imgAltTxt_linkedInIcon,
+  imgAltTxt_projectImage,
+  imgAltTxt_skillIcon,
+  imgAltTxt_experienceIcon,
+  imgAltTxt_educationIcon,
+  imgAltTxt_arrowIcon,
 };

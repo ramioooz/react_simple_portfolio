@@ -2,6 +2,7 @@ export type linkType = {
     title: string,
     url: string,
     img?: string,
+    altTxt?: string,
 }
 export type skillType = {
     name: string,

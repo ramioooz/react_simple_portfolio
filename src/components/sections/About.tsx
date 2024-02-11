@@ -1,6 +1,12 @@
 import React from "react";
 import { about_pic, arrow, education, experience } from "../../assets";
-import { contactDetails } from "../../constants";
+import {
+  imgAltTxt_profileImage,
+  contactDetails,
+  imgAltTxt_experienceIcon,
+  imgAltTxt_educationIcon,
+  imgAltTxt_arrowIcon,
+} from "../../constants";
 
 const About = () => {
   return (
@@ -11,7 +17,7 @@ const About = () => {
         <div className="about-photo-and-details-container">
           <img
             src={about_pic}
-            alt=""
+            alt={imgAltTxt_profileImage}
             className="image-container"
             style={{ borderRadius: "3rem" }}
           />
@@ -20,9 +26,9 @@ const About = () => {
               <div className="about-block">
                 <img
                   src={experience}
-                  alt="experience img"
+                  alt={imgAltTxt_experienceIcon}
                   className="small-icon"
-                  style={{marginBottom: "0.25rem"}}
+                  style={{ marginBottom: "0.25rem" }}
                 />
                 <h3>Experience</h3>
                 <p style={{ textAlign: "center", color: "gray" }}>
@@ -34,9 +40,9 @@ const About = () => {
               <div className="about-block">
                 <img
                   src={education}
-                  alt="education img"
+                  alt={imgAltTxt_educationIcon}
                   className="small-icon"
-                  style={{marginBottom: "0.25rem"}}
+                  style={{ marginBottom: "0.25rem" }}
                 />
                 <h3>Education</h3>
                 <p style={{ textAlign: "center", color: "gray" }}>
@@ -44,14 +50,12 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <p className="about-paragraph">
-              {contactDetails.aboutMe}
-            </p>
+            <p className="about-paragraph">{contactDetails.aboutMe}</p>
           </div>
         </div>
       </div>
       <a href="#experience">
-        <img src={arrow} alt="arrow icon" className="arrow-icon" />
+        <img src={arrow} alt={imgAltTxt_arrowIcon} className="arrow-icon" />
       </a>
     </section>
   );
