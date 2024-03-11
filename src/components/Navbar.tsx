@@ -3,7 +3,6 @@ import { linkType } from "../types/types";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
-
   const menuRef = useRef(null);
   // const menuOpen = useRef(() => false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,11 +25,11 @@ const Navbar = () => {
     //   menuOpen.current = false;
     // }
 
-    if(menuOpen && menuRef.current && e.target !== menuRef.current) {
+    if (menuOpen && menuRef.current && e.target !== menuRef.current) {
       // console.log('click outside the menu is detected.');
       outside_clickCounter += 1;
       // console.log('outside_clickCounter: ', outside_clickCounter);
-      if(outside_clickCounter == 1) {
+      if (outside_clickCounter == 1) {
         return;
       }
       // console.log('closing the menu..');
@@ -51,9 +50,11 @@ const Navbar = () => {
         <div className="navbar-logo">Rami Mohamed</div>
         <ul className="navbar-links">
           {navLinks.map((link, i) => (
-            <a href={link.url} key={i}>
-              {link.title}
-            </a>
+            <li>
+              <a href={link.url} key={i}>
+                {link.title}
+              </a>
+            </li>
           ))}
         </ul>
       </nav>

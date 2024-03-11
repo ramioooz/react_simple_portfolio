@@ -31,7 +31,7 @@ const About = () => {
                   style={{ marginBottom: "0.25rem" }}
                 />
                 <h3>Experience</h3>
-                <p style={{ textAlign: "center", color: "gray" }}>
+                <p style={{ textAlign: "center", color: "rgb(90, 90, 90)" }}>
                   10+ years
                   <br />
                   Full Stack Development
@@ -45,7 +45,7 @@ const About = () => {
                   style={{ marginBottom: "0.25rem" }}
                 />
                 <h3>Education</h3>
-                <p style={{ textAlign: "center", color: "gray" }}>
+                <p style={{ textAlign: "center", color: "rgb(90, 90, 90)" }}>
                   B.Sc. Bachelors Degree
                 </p>
               </div>
@@ -54,7 +54,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <a href="#experience">
+      <a href="#experience" aria-label="go to next section">
         <img src={arrow} alt={imgAltTxt_arrowIcon} className="arrow-icon" />
       </a>
     </section>

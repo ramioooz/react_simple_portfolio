@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /portfolio
+Disallow: /astudio
+
+User-agent: *
+Disallow:

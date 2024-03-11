@@ -7,9 +7,11 @@ const Footer = () => {
       <div style={{ margin: "5rem auto" }}>
         <ul className="navbar-links">
           {navLinks.map((link, i) => (
-            <a href={link.url} key={i}>
-              {link.title}
-            </a>
+            <li>
+              <a href={link.url} key={i}>
+                {link.title}
+              </a>
+            </li>
           ))}
         </ul>
         <div className="copy-writes">

@@ -1,5 +1,9 @@
 import React from "react";
-import { backendSkills, frontendSkills, imgAltTxt_arrowIcon } from "../../constants";
+import {
+  backendSkills,
+  frontendSkills,
+  imgAltTxt_arrowIcon,
+} from "../../constants";
 import { arrow } from "../../assets";
 import Skill from "../Skill";
 
@@ -14,7 +18,7 @@ const Experience = () => {
             <p className="exp-header">Frontend Development</p>
             <div className="skills-wrap">
               {frontendSkills.map((skill, i) => (
-                <Skill key={i} {...skill}/>
+                <Skill key={i} {...skill} />
               ))}
             </div>
           </div>
@@ -22,13 +26,15 @@ const Experience = () => {
             <p className="exp-header">Backend Development</p>
             <div className="skills-wrap">
               {backendSkills.map((skill, i) => (
-                <Skill key={i} {...skill}/>
+                <Skill key={i} {...skill} />
               ))}
             </div>
           </div>
         </div>
       </div>
-      <a href="#projects"><img src={arrow} alt={imgAltTxt_arrowIcon}  className='arrow-icon'/></a>
+      <a href="#projects" aria-label="go to next section">
+        <img src={arrow} alt={imgAltTxt_arrowIcon} className="arrow-icon" />
+      </a>
     </section>
   );
 };

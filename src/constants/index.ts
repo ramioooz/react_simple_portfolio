@@ -106,6 +106,11 @@ const frontendSkills: skillType[] = [
 ];
 const backendSkills: skillType[] = [
   {
+    name: "NestJS",
+    level: "Experienced",
+    icon: checkmark,
+  },
+  {
     name: "MySQL",
     level: "Experienced",
     icon: checkmark,
